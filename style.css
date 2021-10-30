@@ -1,0 +1,94 @@
+@font-face { font-family: Fabfelt-bold; src: url('assets/fabfeltscript.bold.otf'); } 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap');
+body{margin: 0;
+    font-family: 'Oswald', sans-serif;}
+.centered-container{ max-width: 600px;margin: auto;}
+a{text-decoration: none}
+img{width: 97.5vw}
+.main-heading{color: red;}
+.sec-heading{font-style: italic;}
+.links{
+    padding: 0.5rem 1rem;
+}
+.primary-links{
+    display: inline-block;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #000000;
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+}
+.secondary-links{
+    display: inline-block;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #000000;
+    text-decoration: none;
+}
+#name{
+    font-family: 'Fabfelt-bold',serif;
+    font-size: 40px;
+    text-align: center;
+}
+#white{
+    background-color: white;
+}
+#offwhite{
+    background-color: antiquewhite;
+}
+.section>div>p{
+    max-width: 80ch;
+    padding: 2rem 2rem;
+    margin: auto;
+    text-align: justify;
+}
+.section>div>h1{
+    padding-top:3rem;
+    text-align: center;
+}
+#nav{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    margin:0 3rem;
+}
+#nav>ul{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-right: 5rem;
+}
+
+#nav>ul>li>a{
+    color: rgb(14, 96, 134);
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+    border-radius: 1rem 1rem 0 0;
+}
+.footer>div{
+    padding: 2rem 3rem;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.footer>ul>li>a{
+    padding: 0 2rem;
+    color: white;
+}
+.footer>ul>li{ 
+    padding-left: 0px;
+    display: inline-block;
+}
